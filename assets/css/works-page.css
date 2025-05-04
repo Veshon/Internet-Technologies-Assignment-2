@@ -282,7 +282,6 @@
     right: 0;
     left: 0;
     margin: auto;
-    object-fit: contain;
 }
 
 .projects > div:nth-child(4) > p {
@@ -824,7 +823,7 @@
 
 #bottomMiddleFooter > nav > #links {
     position: absolute;
-    top: 4060px;
+    top: 4050px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -849,7 +848,7 @@
 #infoLink {
     color: white;
     position: absolute;
-    top: 4300px;
+    top: 4280px;
     left: 32%;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
