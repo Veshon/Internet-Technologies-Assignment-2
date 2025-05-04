@@ -223,6 +223,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:nth-child(3) > p {
@@ -281,6 +282,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:nth-child(4) > p {
@@ -793,7 +795,7 @@
     height: 50vh;
     background-color: black;
     position: absolute;
-    top: 9000px;
+    top: 4000px;
 }
 
 #FooterBlackBackground > div > h6 {
@@ -806,7 +808,7 @@
 
 #bottomMiddleFooter > h2 {
     position: absolute;
-    top: 9010px;
+    top: 4010px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -822,7 +824,7 @@
 
 #bottomMiddleFooter > nav > #links {
     position: absolute;
-    top: 9050px;
+    top: 4060px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -840,14 +842,14 @@
     width: 180px;
     height: 160px;
     position: absolute;
-    top: 9040px;
+    top: 4040px;
     right: 50px;
 }
 
 #infoLink {
     color: white;
     position: absolute;
-    top: 9250px;
+    top: 4300px;
     left: 32%;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
