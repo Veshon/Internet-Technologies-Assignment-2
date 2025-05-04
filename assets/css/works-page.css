@@ -105,6 +105,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:first-child > p {
@@ -163,6 +164,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:nth-child(2) > p {
