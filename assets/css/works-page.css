@@ -138,7 +138,7 @@
 }
 
 .projects > div:first-child > button > a {
-    color: white;
+    color: red;
     font-size: 20px;
     font-family: "Inder", sans-serif;
     font-weight: 400;
@@ -282,6 +282,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:nth-child(4) > p {
@@ -340,6 +341,7 @@
     right: 0;
     left: 0;
     margin: auto;
+    object-fit: contain;
 }
 
 .projects > div:nth-child(5) > p {
