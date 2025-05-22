@@ -82,9 +82,15 @@
 }
 
 .projects > div{
-    width: 1000px;
-    height: 600px;
+    width: 1150px;
+    height: 650px;
     background-color: #E6FCFF;
+}
+
+/*Adjusting all paragraphs*/
+.projects > div > p{
+    text-align: center;
+    line-height: 30px;
 }
 
 .projects > div:first-child {
@@ -97,10 +103,10 @@
 }
 
 .projects > div:first-child > img {
-    width: 900px;
-    height: 430px;
+    width: 950px;
+    height: 450px;
     position: absolute;
-    top: -130px;
+    top: -150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -116,6 +122,8 @@
     font-style: normal;
     font-size: 20px;
     position: absolute;
+    text-align: center;
+    line-height: 30px;
     top: 400px;
     bottom: 0;
     right: 0;
@@ -159,7 +167,7 @@
     width: 900px;
     height: 430px;
     position: absolute;
-    top: -130px;
+    top: -150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -218,7 +226,7 @@
     width: 900px;
     height: 430px;
     position: absolute;
-    top: -130px;
+    top: -150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -277,7 +285,7 @@
     width: 900px;
     height: 430px;
     position: absolute;
-    top: -130px;
+    top: -150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -336,7 +344,7 @@
     width: 900px;
     height: 430px;
     position: absolute;
-    top: -130px;
+    top: -150px;
     bottom: 0;
     right: 0;
     left: 0;
