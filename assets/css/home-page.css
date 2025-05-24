@@ -760,6 +760,19 @@
         display: none;
     }
 
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3400px;
+        left: 27%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
 }
 
 
@@ -801,6 +814,19 @@
 
     #vrticlAbout{
         display: none;
+    }
+
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 3400px;
+        left: 24%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
     }
 }
 

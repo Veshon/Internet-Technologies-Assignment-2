@@ -927,6 +927,14 @@
     display: none;
 }
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1158px) {
+    .projects > div{
+        width: 1050px;
+        height: 650px;
+        background-color: #E6FCFF;
+    }
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 1016px){
@@ -1127,6 +1135,18 @@
         grid-row-gap: 70px;
     }
 
+    #infoLink {
+        color: white;
+        position: absolute;
+        top: 2350px;
+        left: 20%;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
 }
 
 
