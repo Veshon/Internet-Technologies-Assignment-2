@@ -1077,12 +1077,11 @@
     }
 
     #logoFooter {
-        width: 70px;
-        height: 65px;
+        width: 60px;
+        height: 55px;
         position: absolute;
         top: 2150px;
         left: 25px;
-        display: none;
     }
 
     #phoneIcon {
