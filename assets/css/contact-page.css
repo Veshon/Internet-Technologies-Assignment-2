@@ -1015,3 +1015,149 @@
         font-size: 12px;
     }
 }
+
+/*------------------------------------------------------------------------------------------------------*/
+/*@media all and (max-width: 503px) {*/
+
+/*    #blackBackground > .bg > .inner-title > h1{*/
+/*        position: relative;*/
+/*        top: -40px;*/
+/*        font-size: 65px;*/
+/*    }*/
+
+/*    #blackBackground > .bg > .inner-title > h1:nth-child(2){*/
+/*        font-size: 65px;*/
+/*        position: relative;*/
+/*        top: -90px;*/
+/*    }*/
+
+/*    #logoFooter {*/
+/*        width: 110px;*/
+/*        height: 100px;*/
+/*        position: absolute;*/
+/*        top: 2150px;*/
+/*        left: 25px;*/
+/*    }*/
+
+/*    #mailIcon {*/
+/*        width: 20px;*/
+/*        aspect-ratio: 1/1;*/
+/*        position: relative;*/
+/*        top: 260px;*/
+/*        left: 33vw;*/
+/*    }*/
+
+/*    #FooterBlackBackground > div > #email {*/
+/*        color: white;*/
+/*        position: absolute;*/
+/*        top: 235px;*/
+/*        left: 45vw;*/
+/*        letter-spacing: 1px;*/
+/*        font-family: "Inter Tight", sans-serif;*/
+/*        font-optical-sizing: auto;*/
+/*        font-weight: bold;*/
+/*        font-style: normal;*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 503px) {
+
+    #blackBackground > .bg > .inner-title > h1{
+        position: relative;
+        top: -10px;
+        font-size: 50px;
+    }
+
+    #blackBackground > .bg > .inner-title > h1:nth-child(2){
+        font-size: 50px;
+        position: relative;
+        top: -40px;
+    }
+
+    #logoFooter {
+        width: 70px;
+        height: 65px;
+        position: absolute;
+        top: 2150px;
+        left: 25px;
+        display: none;
+    }
+
+    #phoneIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        max-width: 25px;
+        max-height: 25px;
+        position: relative;
+        top: 225px;
+        left: 20vw;
+    }
+
+    #FooterBlackBackground > div > #mobileNo {
+        color: white;
+        position: absolute;
+        top: 200px;
+        left: 30vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #mailIcon {
+        width: 20px;
+        aspect-ratio: 1/1;
+        position: relative;
+        top: 260px;
+        left: 13vw;
+    }
+
+    #FooterBlackBackground > div > #email {
+        color: white;
+        position: absolute;
+        top: 235px;
+        left: 30vw;
+        letter-spacing: 1px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+
+    #bottomMiddleFooter > h2 {
+        position: absolute;
+        top: 2110px;
+        bottom: 0;
+        right: 0;
+        left: 30%;
+        margin: auto;
+        color: white;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
+    #bottomMiddleFooter > nav > #links {
+        position: absolute;
+        top: 2150px;
+        bottom: 0;
+        right: 0;
+        left: 30%;
+        margin: auto;
+        color: white;
+        letter-spacing: 2px;
+        font-family: "Inter Tight", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 12px;
+    }
+}
