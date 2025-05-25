@@ -82,9 +82,16 @@
 }
 
 .projects > div{
-    width: 1150px;
-    height: 650px;
+    width: 1200px;
+    height: 750px;
     background-color: #E6FCFF;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.projects > div:hover {
+    transform: translateY(-5px);
 }
 
 /*Adjusting all paragraphs*/
@@ -93,9 +100,16 @@
     line-height: 30px;
 }
 
+/* Positioning slider containers within project cards */
+.projects > div > .slider-container {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
+
 .projects > div:first-child {
     position: absolute;
-    top: 780px;
+    top: 830px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -115,7 +129,7 @@
 }
 
 .projects > div:first-child > p {
-    max-width: fit-content;
+    max-width: 80%;
     max-height: fit-content;
     font-family: "Junge", cursive;
     font-weight: bold;
@@ -124,7 +138,7 @@
     position: absolute;
     text-align: center;
     line-height: 30px;
-    top: 400px;
+    top: 500px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -132,31 +146,44 @@
 }
 
 .projects > div:first-child > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 530px;
+    top: 680px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projects > div:first-child > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:first-child > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(2) {
     position: absolute;
-    top: 1500px;
+    top: 1650px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -183,7 +210,7 @@
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 400px;
+    top: 450px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -191,31 +218,45 @@
 }
 
 .projects > div:nth-child(2) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 530px;
+    top: 620px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(2) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(2) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(3) {
     position: absolute;
-    top: 2200px;
+    top: 2450px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -242,7 +283,7 @@
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 400px;
+    top: 450px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -250,31 +291,45 @@
 }
 
 .projects > div:nth-child(3) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 530px;
+    top: 620px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(3) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(3) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(4) {
     position: absolute;
-    top: 2900px;
+    top: 3250px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -301,7 +356,7 @@
     font-style: normal;
     font-size: 20px;
     position: absolute;
-    top: 400px;
+    top: 450px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -309,31 +364,45 @@
 }
 
 .projects > div:nth-child(4) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 530px;
+    top: 620px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(4) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(4) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(5) {
     position: absolute;
-    top: 3600px;
+    top: 4050px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -368,31 +437,45 @@
 }
 
 .projects > div:nth-child(5) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 530px;
+    top: 620px;
     bottom: 0;
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(5) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(5) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(6) {
     position: absolute;
-    top: 4300px;
+    top: 4350px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -426,10 +509,10 @@
 }
 
 .projects > div:nth-child(6) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -437,20 +520,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(6) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(6) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(7) {
     position: absolute;
-    top: 5000px;
+    top: 5050px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -484,10 +581,10 @@
 }
 
 .projects > div:nth-child(7) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -495,20 +592,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(7) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(7) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(8) {
     position: absolute;
-    top: 5700px;
+    top: 5750px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -542,10 +653,10 @@
 }
 
 .projects > div:nth-child(8) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -553,20 +664,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(8) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(8) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(9) {
     position: absolute;
-    top: 6400px;
+    top: 6450px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -600,10 +725,10 @@
 }
 
 .projects > div:nth-child(9) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -611,20 +736,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(9) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(9) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(10) {
     position: absolute;
-    top: 7100px;
+    top: 7150px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -658,10 +797,10 @@
 }
 
 .projects > div:nth-child(10) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -669,20 +808,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(10) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(10) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(11) {
     position: absolute;
-    top: 7800px;
+    top: 7850px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -716,10 +869,10 @@
 }
 
 .projects > div:nth-child(11) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -727,20 +880,34 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(11) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(11) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 
 .projects > div:nth-child(12) {
     position: absolute;
-    top: 8500px;
+    top: 8550px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -774,10 +941,10 @@
 }
 
 .projects > div:nth-child(12) > button {
-    width: 165px;
-    height: 45px;
-    background-color: #51C16D;
-    border: 1px solid #51C16D;
+    width: 180px;
+    height: 50px;
+    background-color: #000000;
+    border: 1px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 530px;
@@ -785,14 +952,28 @@
     right: 0;
     left: 0;
     margin: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.projects > div:nth-child(12) > button:hover {
+    background-color: #333333;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .projects > div:nth-child(12) > button > a {
     color: white;
     font-size: 20px;
     font-family: "Inder", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 5px 0;
 }
 
 .projects2{
@@ -804,7 +985,7 @@
     height: 50vh;
     background-color: black;
     position: absolute;
-    top: 4000px;
+    top: 4800px;
 }
 
 #FooterBlackBackground > div > h6 {
@@ -817,7 +998,7 @@
 
 #bottomMiddleFooter > h2 {
     position: absolute;
-    top: 4010px;
+    top: 4810px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -833,7 +1014,7 @@
 
 #bottomMiddleFooter > nav > #links {
     position: absolute;
-    top: 4050px;
+    top: 4850px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -851,14 +1032,14 @@
     width: 180px;
     height: 160px;
     position: absolute;
-    top: 4040px;
+    top: 4840px;
     right: 50px;
 }
 
 #infoLink {
     color: white;
     position: absolute;
-    top: 4280px;
+    top: 5080px;
     left: 32%;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
@@ -928,10 +1109,19 @@
 }
 
 /*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 1250px) {
+    .projects > div{
+        width: 1100px;
+        height: 750px;
+        background-color: #E6FCFF;
+        border-radius: 15px;
+    }
+}
+
 @media all and (max-width: 1158px) {
     .projects > div{
-        width: 1050px;
-        height: 650px;
+        width: 1000px;
+        height: 700px;
         background-color: #E6FCFF;
     }
 }
@@ -975,14 +1165,38 @@
     }
 
     .projects2>div>button{
-        background-color: white;
-        border: none;
+        width: 180px;
+        height: 50px;
+        background-color: #000000;
+        border: 1px solid #000000;
+        border-radius: 50px;
         position: relative;
         top: 100px;
         bottom: 0;
         right: 0;
         left: 150px;
         margin: auto;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .projects2>div>button:hover{
+        background-color: #333333;
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .projects2>div>button>a{
+        color: white;
+        font-size: 20px;
+        font-family: "Inder", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 0.5px;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        display: block;
+        padding: 5px 0;
     }
 
     #FooterBlackBackground {
@@ -990,7 +1204,7 @@
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2100px;
+        top: 2500px;
     }
 
     #FooterBlackBackground > div > h6 {
@@ -1003,7 +1217,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2110px;
+        top: 2510px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -1019,7 +1233,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2150px;
+        top: 2550px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -1037,14 +1251,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 2150px;
+        top: 2540px;
         right: 50px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 2350px;
+        top: 2780px;
         left: 25%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
