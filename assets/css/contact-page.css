@@ -1130,18 +1130,17 @@
 @media all and (max-width: 417px) {
 
     #main{
-        /*display: grid;*/
+        display: grid;
         grid-template-columns: 300px;
         grid-template-rows: 500px 500px 500px;
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1500px;
+        top: 1600px;
         bottom: 0;
         right: 0;
         left: 0;
         margin: auto;
         grid-row-gap: 40px;
-        display: none;
     }
 }
