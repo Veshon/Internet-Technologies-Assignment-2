@@ -88,7 +88,7 @@
     width: fit-content;
     height: fit-content;
     position: absolute;
-    top: 750px;
+    top: 1250px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -277,7 +277,7 @@
     height: 50vh;
     background-color: black;
     position: absolute;
-    top: 1150px;
+    top: 1650px;
 }
 
 #FooterBlackBackground > div > h6 {
@@ -290,7 +290,7 @@
 
 #bottomMiddleFooter > h2 {
     position: absolute;
-    top: 1160px;
+    top: 1660px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -306,7 +306,7 @@
 
 #bottomMiddleFooter > nav > #links {
     position: absolute;
-    top: 1200px;
+    top: 1700px;
     bottom: 0;
     right: 0;
     left: 46%;
@@ -324,14 +324,14 @@
     width: 180px;
     height: 160px;
     position: absolute;
-    top: 1200px;
+    top: 1700px;
     right: 50px;
 }
 
 #infoLink {
     color: white;
     position: absolute;
-    top: 1410px;
+    top: 1910px;
     left: 32%;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
@@ -410,7 +410,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 750px;
+        top: 1250px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -429,7 +429,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 750px;
+        top: 1250px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -448,7 +448,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 750px;
+        top: 1250px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -467,7 +467,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 750px;
+        top: 1250px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -486,7 +486,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1200px;
+        top: 1700px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -499,7 +499,7 @@
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2100px;
+        top: 2600px;
     }
 
     #FooterBlackBackground > div > h6 {
@@ -512,7 +512,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2110px;
+        top: 2610px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -528,7 +528,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -546,14 +546,14 @@
         width: 180px;
         height: 160px;
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         right: 50px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 2350px;
+        top: 2850px;
         left: 23%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -664,7 +664,7 @@
         height: 50vh;
         background-color: black;
         position: absolute;
-        top: 2100px;
+        top: 2600px;
     }
 
     #FooterBlackBackground > div > h6 {
@@ -677,7 +677,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2110px;
+        top: 2610px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -693,7 +693,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -711,14 +711,14 @@
         width: 130px;
         height: 110px;
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         right: 20px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 2350px;
+        top: 2850px;
         left: 15%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -896,7 +896,7 @@
         height: 60vh;
         background-color: black;
         position: absolute;
-        top: 2100px;
+        top: 2600px;
     }
 
     #FooterBlackBackground > div > h6 {
@@ -909,7 +909,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2110px;
+        top: 2610px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -925,7 +925,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         bottom: 0;
         right: 0;
         left: 46%;
@@ -943,14 +943,14 @@
         width: 130px;
         height: 110px;
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         left: 20px;
     }
 
     #infoLink {
         color: white;
         position: absolute;
-        top: 2400px;
+        top: 2900px;
         left: 3%;
         font-family: "Inter Tight", sans-serif;
         font-optical-sizing: auto;
@@ -1080,7 +1080,7 @@
         width: 60px;
         height: 55px;
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         left: 25px;
     }
 
@@ -1130,7 +1130,7 @@
 
     #bottomMiddleFooter > h2 {
         position: absolute;
-        top: 2110px;
+        top: 2610px;
         bottom: 0;
         right: 0;
         left: 30%;
@@ -1146,7 +1146,7 @@
 
     #bottomMiddleFooter > nav > #links {
         position: absolute;
-        top: 2150px;
+        top: 2650px;
         bottom: 0;
         right: 0;
         left: 30%;
