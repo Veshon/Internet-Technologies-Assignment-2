@@ -603,6 +603,26 @@
     }
 }
 
+/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
+@media all and (max-width: 976px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+
+        #main{
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 500px 500px 500px;
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 1600px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            grid-row-gap: 40px;
+        }
+    }
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 844px){
@@ -631,7 +651,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1570px;
+        top: 1170px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -784,6 +804,27 @@
 
 }
 
+/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
+@media all and (max-width: 685px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+
+        #main{
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 500px 500px 500px;
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 1550px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            grid-row-gap: 40px;
+        }
+    }
+}
+
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 652px){
@@ -893,7 +934,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1550px;
+        top: 1150px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -1136,7 +1177,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1500px;
+        top: 1150px;
         bottom: 0;
         right: 0;
         left: 0;
