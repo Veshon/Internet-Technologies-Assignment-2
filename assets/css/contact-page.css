@@ -541,7 +541,7 @@
 
     #FooterBlackBackground {
         width: 100%;
-        height: 50vh;
+        height: 30vh;
         background-color: black;
         position: absolute;
         top: 2100px;
@@ -671,7 +671,6 @@
 /*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
 @media all and (max-width: 976px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-
         #main{
             display: grid;
             grid-template-columns: 300px;
@@ -679,7 +678,7 @@
             width: fit-content;
             height: fit-content;
             position: absolute;
-            top: 1600px;
+            top: 1450px;
             bottom: 0;
             right: 0;
             left: 0;
