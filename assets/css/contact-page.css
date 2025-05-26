@@ -466,7 +466,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1600px;
+        top: 1200px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -1155,11 +1155,35 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 1750px;
+        top: 1100px;
         bottom: 0;
         right: 0;
         left: 0;
         margin: auto;
         grid-row-gap: 40px;
+    }
+}
+
+/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
+@media all and (max-width: 376px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        body {
+            background-color: red;
+        }
+
+        #main{
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: 500px 500px 500px;
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 1750px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            grid-row-gap: 40px;
+        }
     }
 }
