@@ -513,12 +513,32 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 750px;
+        top: 200px;
         bottom: 0;
         right: 0;
         left: 0;
         margin: auto;
         grid-column-gap: 30px;
+    }
+}
+
+/*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
+@media all and (max-width: 1015px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        #main {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 500px;
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 500px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            grid-column-gap: 30px;
+        }
     }
 }
 
