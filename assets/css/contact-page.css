@@ -274,7 +274,7 @@
 
 #FooterBlackBackground {
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-color: black;
     position: absolute;
     top: 1150px;
@@ -419,51 +419,6 @@
     }
 }
 
-/*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 3000px) {
-    #main {
-        display: grid;
-        grid-template-columns: 300px 300px 300px;
-        grid-template-rows: 500px;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top: 250px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        grid-column-gap: 80px;
-    }
-
-    #FooterBlackBackground {
-        width: 100%;
-        height: 30vh;
-        background-color: black;
-        position: absolute;
-        top: 1150px;
-    }
-}
-
-/*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
-@media all and (max-width: 3000px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main {
-            display: grid;
-            grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 500px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-column-gap: 80px;
-        }
-    }
-}
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 1056px) {
@@ -474,7 +429,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 250px;
+        top: 750px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -483,26 +438,6 @@
     }
 }
 
-/*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
-@media all and (max-width: 1056px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main {
-            display: grid;
-            grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 500px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-column-gap: 50px;
-        }
-    }
-}
-
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 1015px) {
@@ -513,7 +448,7 @@
         width: fit-content;
         height: fit-content;
         position: absolute;
-        top: 200px;
+        top: 750px;
         bottom: 0;
         right: 0;
         left: 0;
@@ -522,25 +457,25 @@
     }
 }
 
-/*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
-@media all and (max-width: 1015px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main {
-            display: grid;
-            grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 500px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-column-gap: 30px;
-        }
+
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 976px) {
+    #main{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 500px;
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 750px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        grid-column-gap: 10px;
     }
 }
+
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 976px) {
@@ -561,7 +496,7 @@
 
     #FooterBlackBackground {
         width: 100%;
-        height: 30vh;
+        height: 50vh;
         background-color: black;
         position: absolute;
         top: 2100px;
@@ -688,25 +623,6 @@
     }
 }
 
-/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
-@media all and (max-width: 976px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main{
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 500px 500px 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 1450px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-row-gap: 40px;
-        }
-    }
-}
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 844px){
@@ -727,21 +643,6 @@
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 685px) {
-
-    #main{
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 500px 500px 500px;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top: 1170px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        grid-row-gap: 40px;
-    }
 
     #nav > div > a {
         font-size: 14px;
@@ -888,27 +789,6 @@
 
 }
 
-/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
-@media all and (max-width: 685px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-
-        #main{
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 500px 500px 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 1550px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-row-gap: 40px;
-        }
-    }
-}
-
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 652px){
@@ -1011,24 +891,9 @@
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 590px) {
 
-    #main{
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 500px 500px 500px;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top: 1150px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        grid-row-gap: 40px;
-    }
-
     #FooterBlackBackground {
         width: 100%;
-        height: 30vh;
+        height: 60vh;
         background-color: black;
         position: absolute;
         top: 2100px;
@@ -1151,25 +1016,50 @@
     }
 }
 
-/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
-@media all and (max-width: 590px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main{
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 500px 500px 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 1400px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-row-gap: 40px;
-        }
-    }
-}
+/*------------------------------------------------------------------------------------------------------*/
+/*@media all and (max-width: 503px) {*/
+
+/*    #blackBackground > .bg > .inner-title > h1{*/
+/*        position: relative;*/
+/*        top: -40px;*/
+/*        font-size: 65px;*/
+/*    }*/
+
+/*    #blackBackground > .bg > .inner-title > h1:nth-child(2){*/
+/*        font-size: 65px;*/
+/*        position: relative;*/
+/*        top: -90px;*/
+/*    }*/
+
+/*    #logoFooter {*/
+/*        width: 110px;*/
+/*        height: 100px;*/
+/*        position: absolute;*/
+/*        top: 2150px;*/
+/*        left: 25px;*/
+/*    }*/
+
+/*    #mailIcon {*/
+/*        width: 20px;*/
+/*        aspect-ratio: 1/1;*/
+/*        position: relative;*/
+/*        top: 260px;*/
+/*        left: 33vw;*/
+/*    }*/
+
+/*    #FooterBlackBackground > div > #email {*/
+/*        color: white;*/
+/*        position: absolute;*/
+/*        top: 235px;*/
+/*        left: 45vw;*/
+/*        letter-spacing: 1px;*/
+/*        font-family: "Inter Tight", sans-serif;*/
+/*        font-optical-sizing: auto;*/
+/*        font-weight: bold;*/
+/*        font-style: normal;*/
+/*        font-size: 12px;*/
+/*    }*/
+/*}*/
 
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 503px) {
@@ -1187,11 +1077,12 @@
     }
 
     #logoFooter {
-        width: 55px;
-        height: 55px;
+        width: 70px;
+        height: 65px;
         position: absolute;
         top: 2150px;
         left: 25px;
+        display: none;
     }
 
     #phoneIcon {
@@ -1268,104 +1159,5 @@
         font-weight: bold;
         font-style: normal;
         font-size: 12px;
-    }
-}
-
-/*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 417px) {
-
-    #main{
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 500px 500px 500px;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top: 1150px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        grid-row-gap: 40px;
-    }
-}
-
-/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
-@media all and (max-width: 417px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main {
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 500px 500px 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 1400px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-row-gap: 40px;
-        }
-
-        #FooterBlackBackground {
-            width: 100%;
-            height: 37vh;
-            background-color: black;
-            position: absolute;
-            top: 2100px;
-        }
-
-        #infoLink {
-            color: white;
-            position: absolute;
-            top: 2410px;
-            left: 20%;
-            font-family: "Inter Tight", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: bold;
-            font-style: normal;
-            letter-spacing: 2px;
-            font-size: 14px;
-        }
-    }
-}
-
-/*------------------------------------------------------------------------------------------------------*/
-@media all and (max-width: 376px) {
-
-    #main{
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 500px 500px 500px;
-        width: fit-content;
-        height: fit-content;
-        position: absolute;
-        top: 1100px;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
-        grid-row-gap: 40px;
-    }
-}
-
-/*----------------------------------------IOS AND macOS--------------------------------------------------------------*/
-@media all and (max-width: 376px) {
-    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        #main{
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 500px 500px 500px;
-            width: fit-content;
-            height: fit-content;
-            position: absolute;
-            top: 1750px;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            margin: auto;
-            grid-row-gap: 40px;
-        }
     }
 }
