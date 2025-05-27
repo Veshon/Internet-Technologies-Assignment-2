@@ -1127,6 +1127,9 @@
 /*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
 @media all and (max-width: 440px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        body{
+            background-color: red;
+        }
         #main{
             top: 1500px;
         }
