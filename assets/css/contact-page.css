@@ -1127,11 +1127,8 @@
 /*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
 @media all and (max-width: 440px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-        body{
-            background-color: red;
-        }
         #main{
-            top: 1800px;
+            top: 1750px;
         }
     }
 }
@@ -1140,7 +1137,7 @@
 @media all and (max-width: 375px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
         #main{
-            top: 1800px;
+            top: 1750px;
         }
     }
 }
