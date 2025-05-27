@@ -1131,7 +1131,7 @@
             background-color: red;
         }
         #main{
-            top: 1500px;
+            top: 1800px;
         }
     }
 }
@@ -1140,7 +1140,7 @@
 @media all and (max-width: 375px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
         #main{
-            top: 1500px;
+            top: 1800px;
         }
     }
 }
