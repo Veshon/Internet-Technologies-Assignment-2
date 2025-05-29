@@ -1513,6 +1513,106 @@
     }
 }
 
+/*!*-------------------------------------------Safari-----------------------------------------------------------*!*/
+/*!*------------------------------------------------------------------------------------------------------*!*/
+@media all and (max-width: 503px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        #logoFooter {
+            height: 105px;
+            width: 120px;
+            display: none;
+        }
+
+        #blackBackground > .bg > .inner-title > h1 {
+            position: relative;
+            top: -10px;
+            font-size: 50px;
+        }
+
+        #blackBackground > .bg > .inner-title > h1:nth-child(2) {
+            font-size: 50px;
+            position: relative;
+            top: -40px;
+        }
+
+        #phoneIcon {
+            width: 20px;
+            aspect-ratio: 1/1;
+            max-width: 25px;
+            max-height: 25px;
+            position: relative;
+            top: 225px;
+            left: 20vw;
+        }
+
+        #FooterBlackBackground > div > #mobileNo {
+            color: white;
+            position: absolute;
+            top: 200px;
+            left: 30vw;
+            letter-spacing: 1px;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        #mailIcon {
+            width: 20px;
+            aspect-ratio: 1/1;
+            position: relative;
+            top: 260px;
+            left: 13vw;
+        }
+
+        #FooterBlackBackground > div > #email {
+            color: white;
+            position: absolute;
+            top: 235px;
+            left: 30vw;
+            letter-spacing: 1px;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        #bottomMiddleFooter > h2 {
+            position: absolute;
+            top: 3210px;
+            bottom: 0;
+            right: 0;
+            left: 30%;
+            margin: auto;
+            color: white;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+
+        #bottomMiddleFooter > nav > #links {
+            position: absolute;
+            top: 3250px;
+            bottom: 0;
+            right: 0;
+            left: 30%;
+            margin: auto;
+            color: white;
+            letter-spacing: 2px;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 12px;
+        }
+    }
+}
+
 /*------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 495px){
 
@@ -1626,7 +1726,7 @@
         top: 2510px;
         bottom: 0;
         right: 0;
-        left: 46%;
+        left: 35%;
         margin: auto;
         color: white;
         font-family: "Inter Tight", sans-serif;
@@ -1642,7 +1742,7 @@
         top: 2540px;
         bottom: 0;
         right: 0;
-        left: 46%;
+        left: 35%;
         margin: auto;
         color: white;
         letter-spacing: 2px;
@@ -1659,6 +1759,7 @@
         position: absolute;
         top: 2540px;
         right: 50px;
+        display: none;
     }
 
     #infoLink {
@@ -1756,4 +1857,51 @@
     }
 }
 
+/*!*---------------------------------------Sfari---------------------------------------------------------------*!*/
+@media all and (max-width: 345px) {
+    @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+        #phoneIcon {
+            width: 15px;
+            aspect-ratio: 1/1;
+            max-width: 25px;
+            max-height: 25px;
+            position: relative;
+            top: 190px;
+            left: 80px;
+        }
 
+        #FooterBlackBackground > div > #mobileNo {
+            color: white;
+            position: absolute;
+            top: 170px;
+            left: 110px;
+            letter-spacing: 1px;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 10px;
+        }
+
+        #mailIcon {
+            width: 15px;
+            aspect-ratio: 1/1;
+            position: relative;
+            top: 215px;
+            left: 60px;
+        }
+
+        #FooterBlackBackground > div > #email {
+            color: white;
+            position: absolute;
+            top: 195px;
+            left: 110px;
+            letter-spacing: 1px;
+            font-family: "Inter Tight", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 10px;
+        }
+    }
+}
