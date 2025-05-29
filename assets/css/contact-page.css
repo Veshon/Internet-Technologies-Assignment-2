@@ -1133,6 +1133,13 @@
     }
 }
 
+/*------------------------------------------------------------------------------------------------------*/
+@media all and (max-width: 375px) {
+    #main{
+        top: 1750px;
+    }
+}
+
 /*---------------------------------------- IOS AND macOS Safari --------------------------------------------------------------*/
 @media all and (max-width: 375px) {
     @supports (-webkit-appearance: none) and (stroke-color: transparent) {
